@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="DeadCycle,Unity3d">
+    <meta name="description" content="Hexo Theme Redefine">
+    <meta name="author" content="DeadCycle">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-redefine.png">
+    <!--- Seo Part-->
+    
+    <link rel="canonical" href="https://deadcycle.gitee.io/2023/02/20/工具使用/2023-02-14-sublimetext/"/>
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="sublimetext使用">
+    <meta property="og:description" content="Hexo Theme Redefine">
+    <meta property="og:url" content="https://deadcycle.gitee.io2023/02/20/工具使用/2023-02-14-sublimetext/">
+    <meta property="og:image" content="/images/redefine-logo.svg">
+    <meta property="og:site_name" content="DeadCycle&#39;s Blog">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="sublimetext使用">
+    <meta name="twitter:description" content="Hexo Theme Redefine">
+    <meta name="twitter:image" content="/images/redefine-logo.svg">
+    <!--- Icon Part-->
+    <link rel="icon" type="image/png" href="/images/redefine-logo.svg" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/redefine-logo.svg">
+    <meta name="theme-color" content="#005080">
+    <link rel="shortcut icon" href="/images/redefine-logo.svg">
+    
+    <title>
+        
+            sublimetext使用 -
+        
+        DeadCycle&#39;s Blog
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    
+<link rel="stylesheet" href="/assets/fonts.css">
+
+    
+    
+    
+    
+    <script id="hexo-configurations">
+    let REDEFINE = window.REDEFINE || {};
+    REDEFINE.hexo_config = {"hostname":"deadcycle.gitee.io","root":"/","language":"zh-CN"};
+    REDEFINE.theme_config = {"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true},"style":{"primary_color":"#005080","avatar":"/images/redefine-avatar.svg","favicon":"/images/redefine-logo.svg","article_img_align":"center","right_side_width":"210px","content_max_width":"1000px","nav_color":{"left":"#f78736","right":"#367df7","transparency":35},"hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"background_image":{"light":"https://evan.beee.top/img/wallhaven-wqery6-light.webp","dark":"https://evan.beee.top/img/wallhaven-wqery6-dark.webp"},"title_color":{"light":"#fff","dark":"#d1d1b6"},"description":"Theme Redefine","custom_font":{"enable":false,"font_family":null,"font_url":null}},"scroll":{"progress_bar":{"enable":true},"percent":{"enable":false}}},"local_search":{"enable":false,"preload":true},"code_block":{"copy":true,"style":"mac","custom_font":{"enable":false,"font_family":null,"font_url":null}},"pjax":{"enable":true},"lazyload":{"enable":true},"version":"1.1.2","friend_links":{"columns":2},"home_article":{"date_format":"auto","category":{"enable":true,"limit":3},"tag":{"enable":true,"limit":3}}};
+    REDEFINE.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
+  </script>
+    
+    
+<link rel="stylesheet" href="/fontawesome/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/brands.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/solid.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/regular.min.css">
+
+    
+    
+    
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+        <span class="scroll-progress-bar"></span>
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+        <span class="pjax-progress-icon">
+            <i class="fa-solid fa-circle-notch fa-spin"></i>
+        </span>
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            <header class="menu-wrapper">
+    
+    <div class="menu-content">
+        <div class="left">
+            
+            <a class="logo-title" href="/">
+                
+                DeadCycle&#39;s Blog
+                
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        
+                            <li class="menu-item">
+                                <!-- Menu -->
+                                <a class="" 
+                                    href="/"  >
+                                    
+                                        
+                                            <i class="fa-regular fa-house"></i>
+                                        
+                                        首页
+                                    
+                                </a>
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile drawer -->
+    <div class="menu-drawer">
+        <ul class="drawer-menu-list">
+            
+                
+                    <li class="drawer-menu-item flex-center">
+                        <a class="" 
+                        href="/"  >
+                             
+                                
+                                    <i class="fa-regular fa-house"></i>
+                                
+                                首页
+                            
+                        </a>
+                    </li>
+                    <!-- Submenu -->
+                    
+            
+
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="post-page-container">
+        <div class="article-content-container">
+
+            
+            
+                <div class="article-title">
+                    <h1 class="article-title-regular">sublimetext使用</h1>
+                </div>
+            
+                
+            
+
+            
+                <div class="article-header">
+                    <div class="avatar">
+                        <img src="/images/redefine-avatar.svg">
+                    </div>
+                    <div class="info">
+                        <div class="author">
+                            <span class="name">DeadCycle</span>
+                            
+                                <span class="author-label">lol</span>
+                            
+                        </div>
+                        <div class="meta-info">
+                            <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="pc">2023-02-20 21:51:30</span>
+        <span class="mobile">2023-02-20 21:51</span>
+        <span class="hover-info">创建时间</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="pc">2023-02-20 21:51:30</span>
+            <span class="mobile">2023-02-20 21:51</span>
+            <span class="hover-info">更新时间</span>
+        </span>
+    
+
+    
+    
+
+    
+    
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div class="article-content markdown-body">
+                <h2 id="sublimetext之使用技巧"><a href="#sublimetext之使用技巧" class="headerlink" title="sublimetext之使用技巧"></a>sublimetext之使用技巧</h2><h3 id="安装前准备"><a href="#安装前准备" class="headerlink" title="安装前准备"></a>安装前准备</h3><blockquote>
+<p>  前往<a class="link"   target="_blank" rel="noopener" href="http://www.sublimetext.com/" >官网 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>下载安装，推荐尽量使用最新版本，新版本自带支持更多的功能（如：<strong>代码跳转</strong>，<strong>代码自动补全</strong>）</p>
+</blockquote>
+<blockquote>
+<p>  添加<strong>Package control</strong>组件，4.0版本以上安装直接通过<code>Tool</code>-&gt;<code>Install Package control</code>即可</p>
+</blockquote>
+<h3 id="配置sublime"><a href="#配置sublime" class="headerlink" title="配置sublime"></a>配置sublime</h3><p>编辑配置setting文件</p>
+<div class="highlight-container" data-rel="Json"><figure class="iseeu highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">	<span class="attr">&quot;color_scheme&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Monokai.sublime-color-scheme&quot;</span><span class="punctuation">,</span> <span class="comment">//配置主题</span></span><br><span class="line">    <span class="attr">&quot;font_size&quot;</span><span class="punctuation">:</span> <span class="number">14</span><span class="punctuation">,</span> <span class="comment">//字号</span></span><br><span class="line">    </span><br><span class="line">    <span class="attr">&quot;highlight_line&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span> <span class="comment">//高亮当前行</span></span><br><span class="line">    <span class="attr">&quot;tab_size&quot;</span><span class="punctuation">:</span> <span class="number">4</span><span class="punctuation">,</span> <span class="comment">//tab size为4空格</span></span><br><span class="line">    <span class="attr">&quot;translate_tabs_to_spaces&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span> <span class="comment">//自动将tab转换为空格</span></span><br><span class="line">    <span class="attr">&quot;always_show_minimap_viewport&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span> <span class="comment">//一直显示minimap上的viewport</span></span><br><span class="line">    <span class="attr">&quot;auto_find_in_selection&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span> <span class="comment">//在选中的文本中查找</span></span><br><span class="line">    <span class="attr">&quot;highlight_modified_tabs&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span> <span class="comment">//高度修改的tab</span></span><br><span class="line">    <span class="attr">&quot;bold_folder_labels&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span><span class="punctuation">,</span> <span class="comment">//加粗文件夹文字</span></span><br><span class="line">    </span><br><span class="line">    <span class="attr">&quot;folder_exclude_patterns&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">        <span class="string">&quot;.svn&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="string">&quot;.git&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="string">&quot;.hg&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="string">&quot;CVS&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="string">&quot;.Trash&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="string">&quot;.Trash-*&quot;</span></span><br><span class="line">    <span class="punctuation">]</span><span class="punctuation">,</span> <span class="comment">//不包含文件夹</span></span><br><span class="line">    <span class="attr">&quot;file_exclude_patterns&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">        <span class="string">&quot;*.pyc&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="string">&quot;*.pyo&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="string">&quot;*.exe&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="string">&quot;*.dll&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="string">&quot;*.obj&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="string">&quot;*.o&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="string">&quot;*.a&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="string">&quot;*.lib&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="string">&quot;*.so&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="string">&quot;*.dylib&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="string">&quot;*.ncb&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="string">&quot;*.sdf&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="string">&quot;*.suo&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="string">&quot;*.pdb&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="string">&quot;*.idb&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="string">&quot;.DS_Store&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="string">&quot;.directory&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="string">&quot;desktop.ini&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="string">&quot;*.class&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="string">&quot;*.psd&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="string">&quot;*.db&quot;</span><span class="punctuation">,</span> </span><br><span class="line">        <span class="string">&quot;*.sublime-workspace&quot;</span></span><br><span class="line">    <span class="punctuation">]</span><span class="punctuation">,</span> <span class="comment">//不包含带后缀的文件名</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure></div>
+
+
+
+<h3 id="常用快捷键"><a href="#常用快捷键" class="headerlink" title="常用快捷键"></a>常用快捷键</h3><table>
+<thead>
+<tr>
+<th>快捷键</th>
+<th align="center">功能</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>ctrl+p</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>ctrl+r</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>ctrl+g</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>ctrl+mouse-leftclick</td>
+<td align="center">对文本进行多选</td>
+</tr>
+<tr>
+<td>mouse-midclick</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>ctrl+h</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>ctrl+d</td>
+<td align="center">继续选中与当前文本相同内容</td>
+</tr>
+<tr>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>ctrl+shift+m</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<h3 id="开发实用插件"><a href="#开发实用插件" class="headerlink" title="开发实用插件"></a>开发实用插件</h3><ul>
+<li><strong>SublimeTmpl</strong></li>
+</ul>
+<p>模板插件设置</p>
+<div class="highlight-container" data-rel="Json"><figure class="iseeu highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//user setting</span></span><br><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;attr&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;author&quot;</span><span class="punctuation">:</span> <span class="string">&quot;DeadCycle&quot;</span><span class="punctuation">,</span> 	<span class="comment">//名字</span></span><br><span class="line">        <span class="attr">&quot;email&quot;</span><span class="punctuation">:</span> <span class="string">&quot;DeadCycle@example.org&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;link&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://deadcycle.gitee.io&quot;</span></span><br><span class="line">    <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;disable_keymap_actions&quot;</span><span class="punctuation">:</span> <span class="string">&quot;html,css,php,ruby,js&quot;</span><span class="punctuation">,</span> <span class="comment">//关闭快捷键 &quot;all&quot;; &quot;html,css&quot;　</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//快捷键相关</span></span><br><span class="line"><span class="comment">// tmpl</span></span><br><span class="line"><span class="punctuation">,</span><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;keys&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="string">&quot;ctrl+alt+p&quot;</span><span class="punctuation">]</span><span class="punctuation">,</span> <span class="attr">&quot;command&quot;</span><span class="punctuation">:</span> <span class="string">&quot;sublime_tmpl&quot;</span><span class="punctuation">,</span> </span><br><span class="line">    <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span><span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;python&quot;</span><span class="punctuation">&#125;</span><span class="punctuation">,</span> <span class="attr">&quot;context&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="punctuation">&#123;</span><span class="attr">&quot;key&quot;</span><span class="punctuation">:</span> <span class="string">&quot;sublime_tmpl.python&quot;</span><span class="punctuation">&#125;</span><span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">,</span><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;keys&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="string">&quot;ctrl+alt+l&quot;</span><span class="punctuation">]</span><span class="punctuation">,</span> <span class="attr">&quot;command&quot;</span><span class="punctuation">:</span> <span class="string">&quot;sublime_tmpl&quot;</span><span class="punctuation">,</span> </span><br><span class="line">    <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span><span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;lua&quot;</span><span class="punctuation">&#125;</span><span class="punctuation">,</span> <span class="attr">&quot;context&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="punctuation">&#123;</span><span class="attr">&quot;key&quot;</span><span class="punctuation">:</span> <span class="string">&quot;sublime_tmpl.lua&quot;</span><span class="punctuation">&#125;</span><span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//commands　命令相关</span></span><br><span class="line"><span class="punctuation">,</span><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;caption&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Tmpl: Create lua&quot;</span><span class="punctuation">,</span> <span class="attr">&quot;command&quot;</span><span class="punctuation">:</span> <span class="string">&quot;sublime_tmpl&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span><span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;lua&quot;</span><span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>模板文件: <code>lua.tmpl</code></p>
+<div class="highlight-container" data-rel="Lua"><figure class="iseeu highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- @Date    : $&#123;date&#125;</span></span><br><span class="line"><span class="comment">-- @Author  : $&#123;author&#125; ($&#123;email&#125;)</span></span><br><span class="line"><span class="comment">-- @Link    : $&#123;link&#125;</span></span><br><span class="line"><span class="comment">-- @Version : \$Id\$</span></span><br></pre></td></tr></table></figure></div>
+
+
+
+<ul>
+<li><strong>BetterBookmarks</strong></li>
+</ul>
+<p>模板插件设置</p>
+<div class="highlight-container" data-rel="Json"><figure class="iseeu highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//快捷键相关</span></span><br><span class="line"><span class="punctuation">[</span></span><br><span class="line">    <span class="comment">//bookmark</span></span><br><span class="line">    <span class="punctuation">,</span><span class="punctuation">&#123;</span></span><br><span class="line">        </span><br><span class="line">        <span class="attr">&quot;keys&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="string">&quot;super+e&quot;</span><span class="punctuation">]</span><span class="punctuation">,</span> <span class="attr">&quot;command&quot;</span><span class="punctuation">:</span> <span class="string">&quot;better_bookmarks&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span><span class="attr">&quot;subcommand&quot;</span><span class="punctuation">:</span> <span class="string">&quot;mark_line&quot;</span><span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;description&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Adds a single bookmark to the current visible layer.&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">    <span class="punctuation">,</span><span class="punctuation">&#123;</span> </span><br><span class="line">        <span class="attr">&quot;keys&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="string">&quot;super+t&quot;</span><span class="punctuation">]</span><span class="punctuation">,</span> <span class="attr">&quot;command&quot;</span><span class="punctuation">:</span> <span class="string">&quot;better_bookmarks&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span><span class="attr">&quot;subcommand&quot;</span><span class="punctuation">:</span> <span class="string">&quot;cycle_mark&quot;</span><span class="punctuation">,</span> <span class="attr">&quot;direction&quot;</span><span class="punctuation">:</span> <span class="string">&quot;next&quot;</span><span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;description&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Adds a single bookmark to the current visible layer.&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line">    <span class="punctuation">,</span><span class="punctuation">&#123;</span></span><br><span class="line">        <span class="attr">&quot;keys&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="string">&quot;super+k&quot;</span><span class="punctuation">,</span> <span class="string">&quot;super+t&quot;</span><span class="punctuation">]</span><span class="punctuation">,</span> <span class="attr">&quot;command&quot;</span><span class="punctuation">:</span> <span class="string">&quot;better_bookmarks&quot;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span><span class="attr">&quot;subcommand&quot;</span><span class="punctuation">:</span> <span class="string">&quot;clear_marks&quot;</span><span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">&quot;description&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Removes all marks in the current visible layer.&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">]</span></span><br></pre></td></tr></table></figure></div>
+
+
+
+
+
+
+            </div>
+
+            
+                <div class="post-copyright-info">
+                    <div class="article-copyright-info-container">
+    <ul>
+        <li>本文标题：sublimetext使用</li>
+        <li>本文作者：DeadCycle</li>
+        <li>创建时间：2023-02-20 21:51:30</li>
+        <li>
+            本文链接：https://deadcycle.gitee.io/2023/02/20/工具使用/2023-02-14-sublimetext/
+        </li>
+        <li>
+            版权声明：本博客所有文章除特别声明外，均采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> 许可协议。转载请注明出处！
+        </li>
+    </ul>
+</div>
+
+                </div>
+            
+
+            
+
+            
+
+            
+                <div class="article-nav">
+                    
+                    
+                        <div class="article-next">
+                            <a class="next"
+                            rel="next"
+                            href="/2023/02/15/python/2017-06-08-python/"
+                            >
+                                <span class="title flex-center">
+                                    <span class="post-nav-title-item">python学习笔记</span>
+                                    <span class="post-nav-item">下一篇</span>
+                                </span>
+                                <span class="right arrow-icon flex-center">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </span>
+                            </a>
+                        </div>
+                    
+                </div>
+            
+
+
+            
+        </div>
+
+        
+            <div class="toc-content-container">
+                <div class="post-toc-wrap">
+    <div class="post-toc">
+        <div class="toc-title">此页目录</div>
+        <div class="page-title">sublimetext使用</div>
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#sublimetext%E4%B9%8B%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7"><span class="nav-text">sublimetext之使用技巧</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E5%89%8D%E5%87%86%E5%A4%87"><span class="nav-text">安装前准备</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%85%8D%E7%BD%AEsublime"><span class="nav-text">配置sublime</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE"><span class="nav-text">常用快捷键</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BC%80%E5%8F%91%E5%AE%9E%E7%94%A8%E6%8F%92%E4%BB%B6"><span class="nav-text">开发实用插件</span></a></li></ol></li></ol>
+
+    </div>
+</div>
+            </div>
+        
+    </div>
+</div>
+
+
+                
+
+            </div>
+
+
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            <footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info">
+            &copy;
+            
+              <span>2022</span>
+              -
+            
+            2023&nbsp;&nbsp;<i class="fa-regular fa-computer-classic"></i>&nbsp;&nbsp;<a href="/">DeadCycle</a>
+        </div>
+        
+            <script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <div class="website-count info-item">
+                
+                    <span id="busuanzi_container_site_uv" class="busuanzi_container_site_uv">
+                        访问人数&nbsp;<span id="busuanzi_value_site_uv" class="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="busuanzi_container_site_pv">
+                        总访问量&nbsp;<span id="busuanzi_value_site_pv" class="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="theme-info info-item">
+            <span class="powered-by-container">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" href="https://hexo.io">Hexo</a> 驱动</span>
+                <br> 
+            <span class="theme-version-container">主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v1.1.2</a>
+        </div>
+        
+        
+        
+            <div id="start_time_div" style="display:none">
+                2022/8/17 11:45:14
+            </div>
+            <div>
+                博客已运行 <span class="odometer" id="runtime_days" ></span> 天 <span class="odometer" id="runtime_hours"></span> 小时 <span class="odometer" id="runtime_minutes"></span> 分钟 <span class="odometer" id="runtime_seconds"></span> 秒
+            </div>
+        
+        
+        
+            <script async data-pjax>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+        
+        
+        
+    </div>  
+</footer>
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="right-bottom-tools page-aside-toggle">
+                <i class="fa-regular fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="unfolded-tools-list">
+        <li class="right-bottom-tools tool-font-adjust-plus flex-center">
+            <i class="fa-regular fa-magnifying-glass-plus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-font-adjust-minus flex-center">
+            <i class="fa-regular fa-magnifying-glass-minus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-expand-width flex-center">
+            <i class="fa-regular fa-expand"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-dark-light-toggle flex-center">
+            <i class="fa-regular fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+            <li class="right-bottom-tools tool-scroll-to-top flex-center">
+                <i class="fa-regular fa-arrow-up"></i>
+            </li>
+        
+
+        <li class="right-bottom-tools tool-scroll-to-bottom flex-center">
+            <i class="fa-regular fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="folded-tools-list">
+        <li class="right-bottom-tools tool-toggle-show flex-center">
+            <i class="fa-regular fa-cog fa-spin"></i>
+        </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+
+
+</main>
+
+
+
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/layouts/menu-shrink.js"></script>
+
+<script src="/js/tools/go-top-bottom.js"></script>
+
+<script src="/js/tools/dark-light-toggle.js"></script>
+
+
+
+
+
+    
+<script src="/js/tools/code-block.js"></script>
+
+
+
+
+    
+<script src="/js/layouts/lazyload.js"></script>
+
+
+
+
+    
+<script src="/js/tools/runtime.js"></script>
+
+    
+<script src="/js/layouts/odometer.min.js"></script>
+
+    
+<link rel="stylesheet" href="/assets/odometer-theme-minimal.css">
+
+
+
+<div class="post-scripts pjax">
+    
+        
+<script src="/js/tools/toc-toggle.js"></script>
+
+<script src="/js/libs/anime.min.js"></script>
+
+<script src="/js/layouts/toc.js"></script>
+
+<script src="/js/plugins/tabs.js"></script>
+
+    
+    
+</div>
+
+
+    
+<script src="/js/libs/pjax.min.js"></script>
+
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        window.pjax = new Pjax({
+            selectors: [
+                'head title',
+                '.page-container',
+                '.pjax'
+            ],
+            history: true,
+            debug: false,
+            cacheBust: false,
+            timeout: 0,
+            analytics: false,
+            currentUrlFullReload: false,
+            scrollRestoration: false,
+            // scrollTo: true,
+        });
+
+        document.addEventListener('pjax:send', () => {
+            REDEFINE.utils.pjaxProgressBarStart();
+        });
+
+        document.addEventListener('pjax:complete', () => {
+            REDEFINE.utils.pjaxProgressBarEnd();
+            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
+            REDEFINE.refresh();
+        });
+    });
+</script>
+
+
+
+</body>
+</html>
