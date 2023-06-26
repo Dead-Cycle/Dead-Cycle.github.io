@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://deadcycle.gitee.io/2023/06/27/Unity/2023-06-27%20Unity%20URP%E7%9B%B8%E6%9C%BA%E8%AE%BE%E7%BD%AE/</loc>
+    
+    <lastmod>2023-06-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://deadcycle.gitee.io/2023/04/11/git%E7%9B%B8%E5%85%B3/2023-04-11-ssh%E7%94%9F%E6%88%90%E7%A7%98%E9%92%A5/</loc>
     
     <lastmod>2023-06-05</lastmod>
@@ -121,7 +130,7 @@
 
   <url>
     <loc>https://deadcycle.gitee.io/</loc>
-    <lastmod>2023-06-05</lastmod>
+    <lastmod>2023-06-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -129,21 +138,21 @@
   
   <url>
     <loc>https://deadcycle.gitee.io/tags/python-learn-note/</loc>
-    <lastmod>2023-06-05</lastmod>
+    <lastmod>2023-06-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://deadcycle.gitee.io/tags/Game-shader/</loc>
-    <lastmod>2023-06-05</lastmod>
+    <lastmod>2023-06-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://deadcycle.gitee.io/tags/git-tools/</loc>
-    <lastmod>2023-06-05</lastmod>
+    <lastmod>2023-06-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -152,21 +161,21 @@
   
   <url>
     <loc>https://deadcycle.gitee.io/categories/python/</loc>
-    <lastmod>2023-06-05</lastmod>
+    <lastmod>2023-06-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://deadcycle.gitee.io/categories/shader/</loc>
-    <lastmod>2023-06-05</lastmod>
+    <lastmod>2023-06-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://deadcycle.gitee.io/categories/git/</loc>
-    <lastmod>2023-06-05</lastmod>
+    <lastmod>2023-06-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
