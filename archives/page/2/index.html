@@ -45,7 +45,13 @@
 <link rel="stylesheet" href="/css/style.css">
 
     
-<link rel="stylesheet" href="/assets/fonts.css">
+<link rel="stylesheet" href="/fonts/fonts.css">
+
+    
+<link rel="stylesheet" href="/fonts/Satoshi/satoshi.css">
+
+    
+<link rel="stylesheet" href="/fonts/Chillax/chillax.css">
 
     <!--- Font Part-->
     
@@ -58,7 +64,7 @@
     <script id="hexo-configurations">
     let Global = window.Global || {};
     Global.hexo_config = {"hostname":"deadcycle.gitee.io","root":"/","language":"zh-CN"};
-    Global.theme_config = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":[]},"code_block":{"copy":true,"style":"mac","font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":true,"lazyload":true,"recommendation":{"enable":false,"title":"推荐阅读","limit":3,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#A31F34","secondary":null},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":false},"scroll_progress":{"bar":false,"percentage":true},"busuanzi_counter":{"enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"pjax":true,"open_graph":true,"google_analytics":{"enable":false,"id":null}},"home_banner":{"enable":true,"style":"static","image":{"light":"/images/wallhaven-wqery6-light.webp","dark":"/images/wallhaven-wqery6-dark.webp"},"title":"Theme Redefine","subtitle":{"text":[],"hitokoto":{"enable":false,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":1500,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":false,"links":{"github":null,"instagram":null,"zhihu":null,"twitter":null,"email":null}}},"plugins":{"feed":{"enable":false},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null}]},"mermaid":{"enable":false,"version":"9.3.0"}},"version":"2.1.5","navbar":{"auto_hide":false,"color":{"left":"#f78736","right":"#367df7","transparency":35},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"}},"search":{"enable":false,"preload":true}},"page_templates":{"friends_column":2,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"left","first_item":"menu","announcement":null,"links":null},"article_date_format":"auto","categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}}};
+    Global.theme_config = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":[]},"code_block":{"copy":true,"style":"mac","font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":true,"lazyload":true,"recommendation":{"enable":false,"title":"推荐阅读","limit":3,"mobile_limit":2,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#A31F34","secondary":null},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":false},"scroll_progress":{"bar":false,"percentage":true},"busuanzi_counter":{"enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"pjax":true,"open_graph":true,"google_analytics":{"enable":false,"id":null}},"home_banner":{"enable":true,"style":"static","image":{"light":"/images/wallhaven-wqery6-light.webp","dark":"/images/wallhaven-wqery6-dark.webp"},"title":"Theme Redefine","subtitle":{"text":[],"hitokoto":{"enable":false,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":1500,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":false,"links":{"github":null,"instagram":null,"zhihu":null,"twitter":null,"email":null}}},"plugins":{"feed":{"enable":false},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null}]},"mermaid":{"enable":false,"version":"9.3.0"}},"version":"2.2.1","navbar":{"auto_hide":false,"color":{"left":"#f78736","right":"#367df7","transparency":35},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"}},"search":{"enable":false,"preload":true}},"page_templates":{"friends_column":2,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"left","first_item":"menu","announcement":null,"links":null},"article_date_format":"auto","categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}},"footerStart":"2022/8/17 11:45:14"};
     Global.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
     Global.data_config = {"masonry":false};
   </script>
@@ -194,9 +200,15 @@
         <section class="archive-item">
             <div class="archive-item-header">
                 <span class="archive-year">2023</span>
-                <span class="archive-year-post-count">[14]</span>
+                <span class="archive-year-post-count">[17]</span>
             </div>
             <ul class="article-list">
+              
+              <li class="article-item" date-is='06-27'>
+                <a href="/2023/06/27/Mac/2023-06-27%20Mac%E5%AE%89%E8%A3%85Homebrew/">
+                  <span class="article-title"></span>
+                </a>
+              </li>
               
               <li class="article-item" date-is='06-27'>
                 <a href="/2023/06/27/Unity/2023-06-27%20Unity%20URP%E7%9B%B8%E6%9C%BA%E8%AE%BE%E7%BD%AE/">
@@ -204,81 +216,93 @@
                 </a>
               </li>
               
-              <li class="article-item" date-is='06-06'>
-                <a href="/2023/06/06/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/2023-06-06%20npm%E4%BD%BF%E7%94%A8/">
+              <li class="article-item" date-is='06-19'>
+                <a href="/2023/06/19/Mac/2023-06-19%20Mac%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%AE%89%E8%A3%85svn/">
                   <span class="article-title"></span>
                 </a>
               </li>
               
-              <li class="article-item" date-is='06-05'>
-                <a href="/2023/06/05/%E6%9D%82%E9%A1%B9/2023-06-05%20Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">
+              <li class="article-item" date-is='06-19'>
+                <a href="/2023/06/19/Mac/2023-06-19%20Mac%E5%85%B3%E9%97%AD%E7%B3%BB%E7%BB%9F%E5%AE%8C%E6%95%B4%E6%80%A7%E4%BF%9D%E6%8A%A4(sip)/">
                   <span class="article-title"></span>
                 </a>
               </li>
               
-              <li class="article-item" date-is='06-05'>
-                <a href="/2023/06/05/%E5%AD%A6%E4%B9%A0shader%E4%B9%8B%E8%B7%AF/2023-02-13-shader(%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98)%E5%AD%A6%E4%B9%A0%E4%B9%8B%E8%B7%AF1/">
-                  <span class="article-title">shader(开发实战)-学习之路(1)</span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='05-14'>
-                <a href="/2023/05/14/Unity/2023-05-14%20ButtonEx%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/">
-                  <span class="article-title"></span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='04-24'>
-                <a href="/2023/04/24/C#/2023-04-24-%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90C#Api%E6%96%87%E4%BB%B6/">
-                  <span class="article-title"></span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='04-14'>
-                <a href="/2023/04/14/Unity%E6%8F%92%E4%BB%B6/2023-04-14%20%E6%8F%92%E4%BB%B6%E7%AE%80%E4%BB%8B/">
-                  <span class="article-title"></span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='04-12'>
-                <a href="/2023/04/12/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/2023-04-11-Rider%E4%BD%BF%E7%94%A8/">
-                  <span class="article-title"></span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='04-11'>
-                <a href="/2023/04/11/Unity/2023-04-11-Unity%E7%9A%84Attribute/">
-                  <span class="article-title"></span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='04-11'>
-                <a href="/2023/04/11/git%E7%9B%B8%E5%85%B3/2023-04-11-ssh%E7%94%9F%E6%88%90%E7%A7%98%E9%92%A5/">
-                  <span class="article-title"></span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='02-20'>
-                <a href="/2023/02/20/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/2023-02-14-sublimetext/">
-                  <span class="article-title">sublimetext使用</span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='02-15'>
-                <a href="/2023/02/15/python/2017-06-08-python/">
-                  <span class="article-title">python学习笔记</span>
-                </a>
-              </li>
-              
-              <li class="article-item" date-is='02-14'>
-                <a href="/2023/02/14/hello-world/">
+              <li class="article-item" date-is='06-07'>
+                <a href="/2023/06/07/hello-world/">
                   <span class="article-title">Hello World</span>
                 </a>
               </li>
               
-              <li class="article-item" date-is='02-14'>
-                <a href="/2023/02/14/git%E7%9B%B8%E5%85%B3/2023-02-13-git%E5%BF%BD%E7%95%A5/">
+              <li class="article-item" date-is='06-07'>
+                <a href="/2023/06/07/C#/2023-04-24-%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90C#Api%E6%96%87%E4%BB%B6/">
+                  <span class="article-title"></span>
+                </a>
+              </li>
+              
+              <li class="article-item" date-is='06-07'>
+                <a href="/2023/06/07/Python/2017-06-08-python/">
+                  <span class="article-title">python学习笔记</span>
+                </a>
+              </li>
+              
+              <li class="article-item" date-is='06-07'>
+                <a href="/2023/06/07/Unity/2023-04-11-Unity%E7%9A%84Attribute/">
+                  <span class="article-title"></span>
+                </a>
+              </li>
+              
+              <li class="article-item" date-is='06-07'>
+                <a href="/2023/06/07/Unity/2023-05-14%20ButtonEx%E6%96%87%E6%A1%A3%E7%BF%BB%E8%AF%91/">
+                  <span class="article-title"></span>
+                </a>
+              </li>
+              
+              <li class="article-item" date-is='06-07'>
+                <a href="/2023/06/07/git%E7%9B%B8%E5%85%B3/2023-02-13-git%E5%BF%BD%E7%95%A5/">
                   <span class="article-title">git ignore</span>
+                </a>
+              </li>
+              
+              <li class="article-item" date-is='06-07'>
+                <a href="/2023/06/07/git%E7%9B%B8%E5%85%B3/2023-04-11-ssh%E7%94%9F%E6%88%90%E7%A7%98%E9%92%A5/">
+                  <span class="article-title"></span>
+                </a>
+              </li>
+              
+              <li class="article-item" date-is='06-07'>
+                <a href="/2023/06/07/Unity%E6%8F%92%E4%BB%B6/2023-04-14%20%E6%8F%92%E4%BB%B6%E7%AE%80%E4%BB%8B/">
+                  <span class="article-title"></span>
+                </a>
+              </li>
+              
+              <li class="article-item" date-is='06-07'>
+                <a href="/2023/06/07/%E5%AD%A6%E4%B9%A0shader%E4%B9%8B%E8%B7%AF/2023-02-13-shader(%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98)%E5%AD%A6%E4%B9%A0%E4%B9%8B%E8%B7%AF1/">
+                  <span class="article-title">shader(开发实战)-学习之路(1)</span>
+                </a>
+              </li>
+              
+              <li class="article-item" date-is='06-07'>
+                <a href="/2023/06/07/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/2023-02-14-sublimetext/">
+                  <span class="article-title">sublimetext使用</span>
+                </a>
+              </li>
+              
+              <li class="article-item" date-is='06-07'>
+                <a href="/2023/06/07/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/2023-04-11-Rider%E4%BD%BF%E7%94%A8/">
+                  <span class="article-title"></span>
+                </a>
+              </li>
+              
+              <li class="article-item" date-is='06-07'>
+                <a href="/2023/06/07/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/2023-06-06%20npm%E4%BD%BF%E7%94%A8/">
+                  <span class="article-title"></span>
+                </a>
+              </li>
+              
+              <li class="article-item" date-is='06-07'>
+                <a href="/2023/06/07/%E6%9D%82%E9%A1%B9/2023-06-05%20Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">
+                  <span class="article-title"></span>
                 </a>
               </li>
               
@@ -327,14 +351,11 @@
         <div class="theme-info info-item">
             <span class="powered-by-container">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" href="https://hexo.io">Hexo</a> 驱动</span>
                 <br>
-            <span class="theme-version-container">主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.1.5</a>
+            <span class="theme-version-container">主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.2.1</a>
         </div>
         
         
         
-            <div id="start_div" style="display:none">
-                2022/8/17 11:45:14
-            </div>
             <div>
                 博客已运行 <span class="odometer" id="runtime_days" ></span> 天 <span class="odometer" id="runtime_hours"></span> 小时 <span class="odometer" id="runtime_minutes"></span> 分钟 <span class="odometer" id="runtime_seconds"></span> 秒
             </div>
