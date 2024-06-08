@@ -13,7 +13,7 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="https://deadcycle.gitee.io/2023/06/05/学习shader之路/2023-02-13-shader(开发实战)学习之路1/"/>
+    <link rel="canonical" href="https://dead-cycle.github.io/2023/06/05/学习shader之路/2023-02-13-shader(开发实战)学习之路1/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
@@ -21,7 +21,7 @@
         <meta name="description" content="对shader的初识 下载openframework 使用openframework进行学习网址 ，使用openframework优势在于剔除对游戏引擎的依赖，使学习的时候更专注于着色器的学习开发。 1. 1 网格 网格是用计算机能够理解的方式，对形状进行描述的一种方法。  网格需要存储3个信息：顶点，边，面  内存中网格只存储了顶点的数据，而边和面是由顶点的顺序隐式表达。   1.2 顶点着色器">
 <meta property="og:type" content="article">
 <meta property="og:title" content="shader(开发实战)-学习之路(1)">
-<meta property="og:url" content="https://deadcycle.gitee.io/2023/06/05/%E5%AD%A6%E4%B9%A0shader%E4%B9%8B%E8%B7%AF/2023-02-13-shader(%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98)%E5%AD%A6%E4%B9%A0%E4%B9%8B%E8%B7%AF1/index.html">
+<meta property="og:url" content="https://dead-cycle.github.io/2023/06/05/%E5%AD%A6%E4%B9%A0shader%E4%B9%8B%E8%B7%AF/2023-02-13-shader(%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98)%E5%AD%A6%E4%B9%A0%E4%B9%8B%E8%B7%AF1/index.html">
 <meta property="og:site_name" content="DeadCycle&#39;s Blog">
 <meta property="og:description" content="对shader的初识 下载openframework 使用openframework进行学习网址 ，使用openframework优势在于剔除对游戏引擎的依赖，使学习的时候更专注于着色器的学习开发。 1. 1 网格 网格是用计算机能够理解的方式，对形状进行描述的一种方法。  网格需要存储3个信息：顶点，边，面  内存中网格只存储了顶点的数据，而边和面是由顶点的顺序隐式表达。   1.2 顶点着色器">
 <meta property="og:locale" content="zh_CN">
@@ -73,7 +73,7 @@
     <!--- Inject Part-->
     
     <script id="hexo-configurations">
-    window.config = {"hostname":"deadcycle.gitee.io","root":"/","language":"zh-CN"};
+    window.config = {"hostname":"dead-cycle.github.io","root":"/","language":"zh-CN"};
     window.theme = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true,"title_alignment":"left"},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":[]},"code_block":{"copy":true,"style":"mac","font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":{"enable":true,"default":"cc_by_nc_sa"},"lazyload":true,"recommendation":{"enable":false,"title":"推荐阅读","limit":3,"mobile_limit":2,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#A31F34","secondary":null},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":true},"scroll_progress":{"bar":false,"percentage":false},"website_counter":{"url":"https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js","enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"single_page":true,"open_graph":true,"google_analytics":{"enable":false,"id":null}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"/images/wallhaven-wqery6-light.webp","dark":"/images/wallhaven-wqery6-dark.webp"},"title":"“优良设计创造价值的速度，快于其增加成本的速度。”","subtitle":{"text":["托马斯·C.盖勒（Thomas C.Gale）"],"hitokoto":{"enable":false,"api":"https://v1.hitokoto.cn"},"typing_speed":50,"backing_speed":0,"starting_delay":500,"backing_delay":1500,"loop":false,"smart_backspace":false},"text_color":{"light":"#eee","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.8rem","line_height":5.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":true,"links":{"github":"https://github.com/Dead-Cycle","instagram":null,"zhihu":null,"twitter":null,"email":"deadcycle@163.com"},"qrs":{"weixin":null}}},"plugins":{"feed":{"enable":false},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null}]},"mermaid":{"enable":false,"version":"9.3.0"}},"version":"2.5.6","navbar":{"auto_hide":false,"color":{"left":"#f78736","right":"#367df7","transparency":35},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"},"Archives":{"path":"/archives","icon":"fa-regular fa-archive"}},"search":{"enable":false,"preload":true}},"page_templates":{"friends_column":2,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"left","first_item":"menu","announcement":null,"links":null},"article_date_format":"YYYY-MM-DD","categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}},"footerStart":"2022/8/17 11:45:14"};
     window.lang_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
     window.data = {"masonry":false};
